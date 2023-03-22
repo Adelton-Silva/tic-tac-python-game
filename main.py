@@ -68,6 +68,7 @@ counter = 0
 round_counter = 0
 
 def start_game():
+    #to remove pay button when the game is on
     b_play.place(x=800, y=300)
     # To start the game
     def control(i):
